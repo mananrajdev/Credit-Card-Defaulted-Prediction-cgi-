@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+	<link rel="shortcut icon" href="card_icon.ico" />
+	<title>	Creditcard Defaulter?</title>
+
+</head>
+<body style="background-color: #95f895">
+	<h1 align="center"> KNOW YOUR DEFAULTER STATUS</h1><br>
+
+	<div class="col-md-4">
+		<img src="creditcard_image1.png" class="image">
+	</div>
+<div class="col-md-4">
+
+	
+		<h3> Fill the following details</h3>
+		<form action="creditcard_objectfile.py" class="form">
+			<div class="form-group">
+				<label for="limit_bal">Limit Balance: </label> <br>
+				<input type="text" name="limit_bal">
+			</div>
+			<div class="form-group">
+				<label for="sex">Sex: </label>
+				<select class="form-control" name="sex">
+					<option value="1">Male</option>
+					<option value="2">Female</option>
+				</select>
+			</div>
+			<div class="form-group">
+    		<label for="education">Education:</label>
+    		<select class="form-control" name="education">
+    			<option value="1">Level 1</option>
+    			<option value="2">Level 2</option>
+    			<option value="3">Level 3</option>
+    		</select>
+  		</div>
+  		<div class="form-group">
+  			<label for="marriage">Marital Status:</label>
+  			<select class="form-control" name="marriage">
+  				<option value="1">Married</option>
+  				<option value="2">Unmarried</option>
+  			</select>
+  		</div>
+  		<div class="form-group">
+  			<label for="age">Age:</label> <br>
+  			<input type="text" name="age">
+  		</div>
+  		<div class="form-group">
+  			<div class="row">
+  			<div class="col-sm-6">
+  				<label for="pay_0">PAY_0</label>
+  				<input type="text" name="pay_0" value='0' placeholder=0>
+  			</div>
+  			<div class="col-sm-6">
+  				<label for="pay_1">PAY_1</label>
+  				<input type="text" name="pay_1" value='0' placeholder=345678>
+  			</div>
+  			<div class="col-sm-6">
+  				<label for="pay_2">PAY_2</label>
+  				<input type="text" name="pay_2" value='0' placeholder=0>
+  			</div>
+
+			<div class="col-sm-6">
+  				<label for="pay_3">PAY_3</label>
+  				<input type="text" name="pay_3" value='0' placeholder=0>
+  			</div>
+  			<div class="col-sm-6">
+  				<label for="pay_4">PAY_4</label>
+  				<input type="text" name="pay_4" value='0' placeholder=0>
+  			</div>
+  			<div class="col-sm-6">
+  				<label for="pay_5">PAY_5</label>
+  				<input type="text" name="pay_5" value='0' placeholder=0>
+  			</div>
+  			</div>
+		</div>
+		<br>
+		<div class="form-group">
+  			<div class="row">
+  			<div class="col-sm-6">
+  				<label for="billamt_1">Bill AMT_1</label>
+  				<input type="text" name="billamt_1">
+  			</div>
+  			<div class="col-sm-6">
+  				<label for="billamt_2">Bill AMT_2</label>
+  				<input type="text" name="billamt_2">
+  			</div>
+
+			<div class="col-sm-6">
+  				<label for="billamt_3">Bill AMT_3</label>
+  				<input type="text" name="billamt_3">
+  			</div>
+  			<div class="col-sm-6">
+  				<label for="billamt_4">Bill AMT_4</label>
+  				<input type="text" name="billamt_4">
+  			</div>
+  			<div class="col-sm-6">
+  				<label for="billamt_5">Bill AMT_5</label>
+  				<input type="text" name="billamt_5">
+  			</div>
+  			<div class="col-sm-6">
+  				<label for="billamt_6">Bill AMT_6</label>
+  				<input type="text" name="billamt_6">
+  			</div>	
+  			</div>
+		</div>
+		<br>
+		<div class="form-group">
+  			<div class="row">
+  			<div class="col-sm-6">
+  				<label for="payamt_1">PAY AMT_1</label>
+  				<input type="text" name="payamt_1">
+  			</div>
+  			<div class="col-sm-6">
+  				<label for="payamt_2">PAY AMT_2</label>
+  				<input type="text" name="payamt_2">
+  			</div>
+
+			<div class="col-sm-6">
+  				<label for="payamt_3">PAY AMT_3</label>
+  				<input type="text" name="payamt_3">
+  			</div>
+  			<div class="col-sm-6">
+  				<label for="payamt_4">PAY AMT_4</label>
+  				<input type="text" name="payamt_4">
+  			</div>
+  			<div class="col-sm-6">
+  				<label for="payamt_5">PAY AMT_5</label>
+  				<input type="text" name="payamt_5">
+  			</div>
+  			<div class="col-sm-6">
+  				<label for="payamt_6">PAY AMT_6</label>
+  				<input type="text" name="payamt_6">
+  			</div>	
+  			</div>
+		</div>
+		<div class="form-group" align="center">
+			<BUTTON type="submit" class="btn btn-success">Check</BUTTON>
+		</div>
+	</form>
+</div>
+	<div class="col-md-4">
+		<img src="creditcard_image2.png" class="image">
+	</div>
+</body>
+</html>
